@@ -15,8 +15,6 @@ Including another URLconf
 """
 from xml.etree.ElementInclude import include
 from django.contrib import admin
-from django.urls import path
-
 from django.urls import path, include, re_path
 from django.views.generic import TemplateView
 
